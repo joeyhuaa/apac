@@ -18,7 +18,7 @@ export default function DeptCard({
       <h4 style={{fontFamily: 'Poppins'}}>{title}</h4>
       <h5>{name}</h5>
       <h6 style={{color:'#FCBC1A'}}>{email}</h6>
-      <textarea>{blurb}</textarea>
+      <textarea readOnly>{blurb}</textarea>
     </div>
   )
 };
