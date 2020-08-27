@@ -6,7 +6,7 @@ import {Col} from 'react-bootstrap'
 
 export default function Depts() {
   return (
-    <Container fluid id='dept-page'>
+    <Container fluid id='depts'>
       <h1 style={{fontFamily:'Poppins semibold', marginBottom:'2em'}}>Our Departments</h1>
       <Row>
         <Col>

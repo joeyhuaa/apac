@@ -11,7 +11,12 @@ body {
   z-index:10;
 }
 
-#dept-page {
+#events {
+  background-image: url('./img/paint splotch.jpg');
+  padding:5em;
+}
+
+#depts {
   background-image: url('./img/DEPTS BG.jpg');
   padding:5em;
 }

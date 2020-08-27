@@ -7,13 +7,13 @@
 
 import React, {useState} from "react";
 
-let DeptCard = ({
+export default function DeptCard({
   imgsrc,
   title,
   name,
   email,
   blurb
-}) => {
+}) {
   let [text, setText] = useState(() => blurb.split(' ').slice(0,35).join(' ') + '...')
 
   return (
@@ -30,5 +30,3 @@ let DeptCard = ({
     </div>
   )
 };
-
-export default DeptCard;
