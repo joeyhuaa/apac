@@ -1,10 +1,10 @@
 import React from 'react'
-import DeptCard from './DeptCard'
+import DeptCard from '../components/DeptCard'
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import {Col} from 'react-bootstrap'
 
-export default function DeptPage() {
+export default function Depts() {
   return (
     <Container fluid id='dept-page'>
       <h1 style={{fontFamily:'Poppins semibold', marginBottom:'2em'}}>Our Departments</h1>

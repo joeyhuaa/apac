@@ -1,14 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar'
-import DeptPage from './components/DeptPage'
-import LaurenAboutComponent from './components/LaurenAboutComponent'
+import Depts from './sections/Depts'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <DeptPage />
+      <Depts />
     </div>
   );
 }
