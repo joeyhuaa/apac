@@ -6,7 +6,7 @@
  **/
 
 import React from "react";
-import logo from './logo.png'
+import logo from '../img/logo.png'
 import '../../src/App.css'
 
 const Navbar = () => (
