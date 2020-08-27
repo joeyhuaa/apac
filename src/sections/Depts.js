@@ -9,7 +9,7 @@ export default function Depts() {
     <Container fluid id='depts'>
       <h1 style={{fontFamily:'Poppins semibold', marginBottom:'2em'}}>Our Departments</h1>
       <Row>
-        <Col>
+        <Col xs={12} md={4}>
           <DeptCard
             title='DIRECTOR'
             name='Kinu Koide'
@@ -17,7 +17,7 @@ export default function Depts() {
             blurb='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos.'
           />
         </Col>
-        <Col>
+        <Col xs={12} md={4}>
           <DeptCard
             title='MARKETING'
             name='Gennifer Hom'
@@ -25,17 +25,17 @@ export default function Depts() {
             blurb='Hello! My Name is Gennifer Hom and I have strong interests in the arts which is why I decided to be a part of APAC. My interests started in high school where I studied fine arts and eventually grew interests in UI/UX design and Graphic design. I want to help contribute to the APAC group and create a platform where all arts can be welcomed and appreciated on campus.'
           />
         </Col>
-        <Col>
+        <Col xs={12} md={4}>
           <DeptCard
             title='SOCIAL MEDIA'
             name='Laura Yien'
             email='lnyien@ucdavis.edu'
-            blurb='Hello! I’m a second-year design major from the Bay Area. I became a part of APAC because I’m passionate about sharing meaningful work with others and highlighting artists in our community. My artistic roots are in traditional fine art, and I especially love painting and anything abstract or… experimental!'
+            blurb='Hello! I’m a second-year design major from the Bay Area. I became a part of APAC because I’m passionate about sharing meaningful work with others and highlighting artists in our community. My artistic roots are in traditional fine art, and I especially love painting and anything abstract or experimental!'
           />
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col xs={12} md={4}>
           <DeptCard
             title='OUTREACH'
             name='Natalie Lauerman'
@@ -43,7 +43,7 @@ export default function Depts() {
             blurb='Hello! I am a third-year Sustainable Environmental Design major from San Diego and my favorite art medium is ceramics. I joined APAC because I am passionate about art and outreach and wanted to be more involved at Davis; this committee is a great opportunity to leave a lasting impact on the Davis community and bring attention to important issues in a new and creative way.'
           />
         </Col>
-        <Col>
+        <Col xs={12} md={4}>
           <DeptCard
             title='OUTREACH'
             name='Lucas Weiser'
@@ -51,7 +51,7 @@ export default function Depts() {
             blurb="Hello! I'm Lucas and I joined the APAC because I want to share relevant social messages within our community. By sharing these messages through public works of art we can  inform our community, and make it more beautiful at the same time. I like to work with many different types of art, including print, painting, and making music."
           />
         </Col>
-        <Col>
+        <Col xs={12} md={4}>
           <DeptCard
             title='ART SHOWS'
             name='Mickey Sanchez'

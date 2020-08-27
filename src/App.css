@@ -2,38 +2,124 @@ body {
   padding:0;
   margin:0;
 }
-
+textarea {
+  border:none;
+  overflow:hidden;
+  resize:none;
+  width:100%;
+  height:45%;
+}
+textarea:hover {
+  height:70%;
+}
+#logo {
+  min-width:50px;
+  margin-left:3%;
+}
 #nav {
   display:flex;
+  align-items:center;
+  justify-content: space-between;
   background:linear-gradient(#FFDC83, #FAE4AD);
   /* position:fixed; */
   top:0;
-  z-index:10;
+  z-index:100;
 }
-
+#navlist {
+  display:flex;
+  list-style:none;
+  justify-content:space-between;
+  align-items:center;
+  width:60%;
+  margin-right:5%;
+}
+#navdrop {
+  list-style:none;
+  margin-top:auto;
+  padding-bottom:1em;
+  width:100%;
+  background:#FAE4AD;
+  flex-direction:column;
+  justify-content:space-around;
+  position:absolute;
+}
+#navicon {
+  display:none;
+}
 #events {
-  background-image: url('./img/paint splotch.jpg');
+  background-image:url('./img/paint splotch.jpg');
   padding:5em;
 }
-
 #depts {
-  background-image: url('./img/DEPTS BG.jpg');
+  background-image:url('./img/DEPTS BG.jpg');
   padding:5em;
 }
-
 .dept-card {
   padding:1em;
   margin-bottom:3em;
-  background:#FFFFFF;
-  border-radius:5px;
-  font-family: 'Lato', sans-serif;
+  background:white;
+  border-radius:15px;
+  font-family:'Lato', sans-serif;
   box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height:350px;
 }
-
 .dept-card:hover {
-  height:500px;
+  height:520px;
+  width:92%;
   position:absolute;
   box-shadow:0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   z-index:20;
+}
+.event-card {
+  height:40vw;
+  margin-bottom:3em;
+  background-size:cover;
+  display:flex;
+  justify-content:center;
+  box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inner-white {
+  width:75%;
+  height:100%;
+  background:white;
+  padding:2em;
+}
+.translucent {
+  opacity:79%;
+  /* filter:blur(8px);
+  -webkit-filter:blur(8px); */
+}
+
+@media (max-width: 900px) {
+  #navlist {
+    display:none;
+  }
+  #navicon {
+    display:block;
+    margin-right:3%;
+    width:6%;
+    border:none;
+    background-color:transparent;
+    min-width:40px;
+  }
+}
+@media (max-width: 500px) {
+  textarea {
+    height:70%;
+  }
+  .dept-card {
+    padding:1em;
+    margin-bottom:3em;
+    background:white;
+    border-radius:15px;
+    font-family:'Lato', sans-serif;
+    box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:550px;
+  }
+  .dept-card:hover {
+    height:550px;
+    width:unset;
+    box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:unset;
+  }
 }
