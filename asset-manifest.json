@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/apac/static/css/main.32227a23.chunk.css",
+    "main.js": "/apac/static/js/main.049021df.chunk.js",
+    "main.js.map": "/apac/static/js/main.049021df.chunk.js.map",
+    "runtime-main.js": "/apac/static/js/runtime-main.adfb2399.js",
+    "runtime-main.js.map": "/apac/static/js/runtime-main.adfb2399.js.map",
+    "static/js/2.b72c003b.chunk.js": "/apac/static/js/2.b72c003b.chunk.js",
+    "static/js/2.b72c003b.chunk.js.map": "/apac/static/js/2.b72c003b.chunk.js.map",
+    "index.html": "/apac/index.html",
+    "precache-manifest.00eb1a2469476dc832dfd70d0efed3d6.js": "/apac/precache-manifest.00eb1a2469476dc832dfd70d0efed3d6.js",
+    "service-worker.js": "/apac/service-worker.js",
+    "static/css/main.32227a23.chunk.css.map": "/apac/static/css/main.32227a23.chunk.css.map",
+    "static/js/2.b72c003b.chunk.js.LICENSE.txt": "/apac/static/js/2.b72c003b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/apac/static/media/paint splotch.76de6cd7.jpg",
+    "static/media/art.jpg": "/apac/static/media/art.805180e5.jpg",
+    "static/media/logo.png": "/apac/static/media/logo.e412b10f.png",
+    "static/media/menu.png": "/apac/static/media/menu.7bb750a6.png",
+    "static/media/mural.jpg": "/apac/static/media/mural.00cd2609.jpg",
+    "static/media/pic1.jpg": "/apac/static/media/pic1.9ece69f8.jpg",
+    "static/media/pic2.jpg": "/apac/static/media/pic2.8034f27c.jpg",
+    "static/media/pic3.jpg": "/apac/static/media/pic3.48785c25.jpg",
+    "static/media/pic4.jpg": "/apac/static/media/pic4.11a7f9f9.jpg",
+    "static/media/pic5.jpg": "/apac/static/media/pic5.040cc7e4.jpg",
+    "static/media/pic6.jpg": "/apac/static/media/pic6.0eeebab2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adfb2399.js",
+    "static/js/2.b72c003b.chunk.js",
+    "static/css/main.32227a23.chunk.css",
+    "static/js/main.049021df.chunk.js"
+  ]
+}
