@@ -7,13 +7,8 @@ export default function DeptCard({
   email,
   blurb,
 }) {
-  let [text, setText] = useState(() => blurb.split(' ').slice(0,35).join(' ') + '...')
   return (
-    <div 
-      className='dept-card' 
-      onMouseOver={() => setText(blurb)}
-      onMouseLeave={() => setText(blurb.split(' ').slice(0,30).join(' ') + '...')}
-    >
+    <div className='dept-card'>
       <img src={imgsrc} />
       <h4 style={{fontFamily: 'Poppins'}}>{title}</h4>
       <h5>{name}</h5>
