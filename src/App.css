@@ -82,17 +82,24 @@ textarea {
   padding:5em;
 }
 .gallery-card {
+  height:30vw;
+  min-height:300px;
+  max-width:350px;
   margin-bottom:3em;
   box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .gallery-card-art {
-  height:30vw;
+  height:90%;
   background-size:cover;
 }
 .gallery-card-bar {
+  height:10%;
+  padding-left:6px;
+  padding-right:6px;
   display:flex;
   justify-content:space-between;
-  background-blend-mode:white;
+  align-items:center;
+  background:white;
 }
 
 .inner-white {
