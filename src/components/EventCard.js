@@ -12,7 +12,7 @@ export default function DeptCard({
     >
       <div className='inner-white translucent'>
         <h4 style={{
-          fontFamily:'Poppins semibold', 
+          fontFamily:'Poppins', 
           textAlign:'center',
           fontSize:30
         }}>{title}</h4>

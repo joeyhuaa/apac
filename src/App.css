@@ -70,7 +70,7 @@ textarea {
   display:block;
   margin-right:3%;
   margin-left:auto;
-  width:10%;
+  width:20%;
   max-width:60px;
   border:none;
   background-color:transparent;
@@ -96,7 +96,7 @@ textarea {
   padding:5em;
 }
 .event-card {
-  height:500px;
+  height:800px;
   margin-bottom:3em;
   background-size:cover;
   display:flex;
