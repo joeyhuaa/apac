@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/apac/static/css/main.71b82acd.chunk.css",
+    "main.css": "/apac/static/css/main.0d3953b2.chunk.css",
     "main.js": "/apac/static/js/main.5fb6a8ef.chunk.js",
     "main.js.map": "/apac/static/js/main.5fb6a8ef.chunk.js.map",
     "runtime-main.js": "/apac/static/js/runtime-main.adfb2399.js",
@@ -8,9 +8,9 @@
     "static/js/2.66bc6ce0.chunk.js": "/apac/static/js/2.66bc6ce0.chunk.js",
     "static/js/2.66bc6ce0.chunk.js.map": "/apac/static/js/2.66bc6ce0.chunk.js.map",
     "index.html": "/apac/index.html",
-    "precache-manifest.5590ba45b9d31dfb25df72656711357c.js": "/apac/precache-manifest.5590ba45b9d31dfb25df72656711357c.js",
+    "precache-manifest.19513a89fd40e0f359a4a5b4cef50b07.js": "/apac/precache-manifest.19513a89fd40e0f359a4a5b4cef50b07.js",
     "service-worker.js": "/apac/service-worker.js",
-    "static/css/main.71b82acd.chunk.css.map": "/apac/static/css/main.71b82acd.chunk.css.map",
+    "static/css/main.0d3953b2.chunk.css.map": "/apac/static/css/main.0d3953b2.chunk.css.map",
     "static/js/2.66bc6ce0.chunk.js.LICENSE.txt": "/apac/static/js/2.66bc6ce0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/apac/static/media/paint splotch.76de6cd7.jpg",
     "static/media/art.jpg": "/apac/static/media/art.805180e5.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.adfb2399.js",
     "static/js/2.66bc6ce0.chunk.js",
-    "static/css/main.71b82acd.chunk.css",
+    "static/css/main.0d3953b2.chunk.css",
     "static/js/main.5fb6a8ef.chunk.js"
   ]
 }
