@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0b3d7d6b16f4d85c24dc3fb759c9ffb",
+    "revision": "c543857f61639da82ba80375192944c8",
     "url": "/apac/index.html"
   },
   {
-    "revision": "370967e83b286902ddbb",
-    "url": "/apac/static/css/main.32227a23.chunk.css"
+    "revision": "44b13213756e7c46996a",
+    "url": "/apac/static/css/main.0a349f47.chunk.css"
   },
   {
-    "revision": "7cbc82fdf87d0f2cc3b9",
-    "url": "/apac/static/js/2.b72c003b.chunk.js"
+    "revision": "8a54ad77f726a6f9ff22",
+    "url": "/apac/static/js/2.b7afa14b.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/apac/static/js/2.b72c003b.chunk.js.LICENSE.txt"
+    "url": "/apac/static/js/2.b7afa14b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "370967e83b286902ddbb",
-    "url": "/apac/static/js/main.049021df.chunk.js"
+    "revision": "44b13213756e7c46996a",
+    "url": "/apac/static/js/main.c878fae8.chunk.js"
   },
   {
     "revision": "fefb3b02317b5877957f",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "805180e5fc4c740f3dc13c2e2d63525f",
     "url": "/apac/static/media/art.805180e5.jpg"
+  },
+  {
+    "revision": "1ba468ffd707d4b8fe4006ca43c1593c",
+    "url": "/apac/static/media/heart.1ba468ff.png"
   },
   {
     "revision": "e412b10f1aa311188f775b1001178ba8",
