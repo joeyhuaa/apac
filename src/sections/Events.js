@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import {Col} from 'react-bootstrap'
 import EventCard from '../components/EventCard'
+
 import art from '../img/art.jpg'
 import mural from '../img/mural.jpg'
 

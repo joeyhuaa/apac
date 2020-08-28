@@ -12,13 +12,11 @@ textarea {
   height:60%;
   font-size:13px;
 }
-textarea:hover {
-  height:70%;
-}
 #logo {
   min-width:50px;
   margin-left:3%;
 }
+
 #nav {
   display:flex;
   align-items:center;
@@ -51,10 +49,7 @@ textarea:hover {
 #navicon {
   display:none;
 }
-#events {
-  background-image:url('./img/paint splotch.jpg');
-  padding:5em;
-}
+
 #depts {
   background-image:url('./img/DEPTS BG.jpg');
   padding:5em;
@@ -68,6 +63,11 @@ textarea:hover {
   box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height:375px;
 }
+
+#events {
+  background-image:url('./img/paint splotch.jpg');
+  padding:5em;
+}
 .event-card {
   height:40vw;
   margin-bottom:3em;
@@ -76,6 +76,25 @@ textarea:hover {
   justify-content:center;
   box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#gallery {
+  background-image:url('./img/paint splotch.jpg');
+  padding:5em;
+}
+.gallery-card {
+  margin-bottom:3em;
+  box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gallery-card-art {
+  height:30vw;
+  background-size:cover;
+}
+.gallery-card-bar {
+  display:flex;
+  justify-content:space-between;
+  background-blend-mode:white;
+}
+
 .inner-white {
   width:75%;
   height:100%;
