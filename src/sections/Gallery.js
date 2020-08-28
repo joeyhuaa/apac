@@ -44,7 +44,7 @@ export default function Gallery() {
       <h1 style={{fontFamily:'Poppins semibold', marginBottom:'2em'}}>Gallery</h1>
       <Row>
         {cards.map(card => 
-          <Col sm={12} md={6} lg={4}>
+          <Col sm={12} lg={4}>
             <GalleryCard
               art={card.art}
               title={card.title}
