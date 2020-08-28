@@ -66,6 +66,7 @@ textarea {
 #navicon {
   display:block;
   margin-right:3%;
+  margin-left:auto;
   width:10%;
   border:none;
   background-color:transparent;
