@@ -30,16 +30,21 @@ textarea {
 #logo {
   min-width:100px;
   margin-left:3%;
+  position:fixed;
+  top:2%;
+  z-index:100;
 }
 
 #nav {
   display:flex;
+  width:100%;
   align-items:center;
-  justify-content: space-between;
+  justify-content:space-between;
   background:linear-gradient(#FFDC83, #FAE4AD);
-  /* position:fixed; */
+  position:relative;
   top:0;
   z-index:100;
+  box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #navdrop {
   position:absolute;
@@ -107,11 +112,12 @@ textarea {
 .gallery-card-art {
   height:90%;
   background-size:cover;
+  background-position:center;
 }
 .gallery-card-bar {
   height:10%;
-  padding-left:6px;
-  padding-right:6px;
+  padding-left:5%;
+  padding-right:5%;
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -130,20 +136,42 @@ textarea {
   -webkit-filter:blur(8px); */
 }
 
-/* iPad and bigger */
+/* iPad and desktop */
 @media (min-width: 1024px) {
+  h1 {
+    font-size:45px;
+  }
+  h4 {
+    font-size:25px;
+  }
+  h5 {
+    font-size:20px;
+  }
+  h6 {
+    font-size:18px;
+  }
+  textarea {
+    font-size:16px;
+  }
   #navicon {
     display:none;
+  }
+  #nav {
+    height:13.5vw;
   }
   #navlist {
     display:flex;
     list-style:none;
+    margin-left:auto;
     justify-content:space-between;
     align-items:center;
     width:60%;
     margin-right:5%;
   }
   .dept-card {
-    height:500px
+    height:500px;
+  }
+  .gallery-card {
+    height:400px;
   }
 }

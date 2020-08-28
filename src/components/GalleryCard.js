@@ -12,7 +12,7 @@ export default function GalleryCard({
         style={{backgroundImage: `url(${art})`}}
       />
       <div className='gallery-card-bar'>
-        <span>{title}</span>
+        <h6>{title}</h6>
         <img src={heart} width='7%' />
       </div>
     </div>

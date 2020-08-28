@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div>
       <div id='nav'>
-        <img id='logo' src={logo} width="15%" />
+        <img id='logo' src={logo} width="12%" />
         <ul id='navlist'>
           <li>HOME</li>
           <li>ABOUT</li>
