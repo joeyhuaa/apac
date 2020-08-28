@@ -28,7 +28,7 @@ textarea {
   font-size:40px;
 }
 #logo {
-  min-width:100px;
+  min-width:170px;
   margin-left:3%;
   position:fixed;
   top:2%;
@@ -37,8 +37,8 @@ textarea {
 
 #nav {
   display:flex;
-  width:100%;
-  align-items:center;
+  height:100px;
+  /* align-items:center; */
   justify-content:space-between;
   background:linear-gradient(#FFDC83, #FAE4AD);
   position:relative;
@@ -58,7 +58,10 @@ textarea {
   align-items: flex-end;
   padding-right:3%;
   font-size:40px;
-  z-index:100;
+  z-index:99;
+}
+#navdrop li {
+  margin-top:10%;
 }
 #navlist {
   display:none;
@@ -68,6 +71,7 @@ textarea {
   margin-right:3%;
   margin-left:auto;
   width:10%;
+  max-width:60px;
   border:none;
   background-color:transparent;
   min-width:40px;
@@ -132,7 +136,7 @@ textarea {
   padding:2em;
 }
 .translucent {
-  opacity:79%;
+  /* opacity:79%; */
   /* filter:blur(8px);
   -webkit-filter:blur(8px); */
 }
@@ -154,11 +158,10 @@ textarea {
   textarea {
     font-size:16px;
   }
+  #nav {
+  }
   #navicon {
     display:none;
-  }
-  #nav {
-    height:13.5vw;
   }
   #navlist {
     display:flex;
@@ -167,10 +170,11 @@ textarea {
     justify-content:space-between;
     align-items:center;
     width:60%;
+    height:100%;
     margin-right:5%;
   }
   .dept-card {
-    height:500px;
+    height:475px;
   }
   .gallery-card {
     height:400px;
