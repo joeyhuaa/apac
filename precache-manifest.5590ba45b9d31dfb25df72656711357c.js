@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20911021fd4217163bd9c8b193504451",
+    "revision": "4b6e8cfc5158ba5c0bd06fcc524cbc91",
     "url": "/apac/index.html"
   },
   {
-    "revision": "72d1b442fe011891b2e0",
-    "url": "/apac/static/css/main.7fa84e26.chunk.css"
+    "revision": "0939c02c05af3e22d4a0",
+    "url": "/apac/static/css/main.71b82acd.chunk.css"
   },
   {
     "revision": "e983e6991a7c2eb91c3b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apac/static/js/2.66bc6ce0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72d1b442fe011891b2e0",
-    "url": "/apac/static/js/main.7c125d23.chunk.js"
+    "revision": "0939c02c05af3e22d4a0",
+    "url": "/apac/static/js/main.5fb6a8ef.chunk.js"
   },
   {
     "revision": "fefb3b02317b5877957f",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apac/static/media/heart.1ba468ff.png"
   },
   {
-    "revision": "e412b10f1aa311188f775b1001178ba8",
-    "url": "/apac/static/media/logo.e412b10f.png"
+    "revision": "591493014701919d37aa3b378e70860a",
+    "url": "/apac/static/media/logo.59149301.png"
   },
   {
     "revision": "7bb750a6cbe371241574568b4cc6accf",
