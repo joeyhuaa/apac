@@ -41,7 +41,7 @@ let cards = [
 export default function Gallery() {
   return (
     <Container fluid id='gallery'>
-      <h1 style={{fontFamily:'Poppins semibold', marginBottom:'2em'}}>Gallery</h1>
+      <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Gallery</h1>
       <Row>
         {cards.map(card => 
           <Col sm={12} lg={4}>

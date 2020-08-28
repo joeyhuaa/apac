@@ -46,7 +46,7 @@ let cards = [
 export default function Depts() {
   return (
     <Container fluid id='depts'>
-      <h1 style={{fontFamily:'Poppins semibold', marginBottom:'2em'}}>Our Departments</h1>
+      <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Our Departments</h1>
       <Row>
         {cards.map(card => 
           <Col sm={12} lg={4}>

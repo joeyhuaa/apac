@@ -10,7 +10,7 @@ import mural from '../img/mural.jpg'
 export default function Events() {
   return (
     <Container fluid id='events'>
-      <h1 style={{fontFamily:'Poppins semibold', marginBottom:'2em'}}>Upcoming Events</h1>
+      <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Upcoming Events</h1>
       <Row>
         <Col>
           <EventCard

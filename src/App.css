@@ -4,6 +4,7 @@ body {
 }
 h1 {
   font-size:65px;
+  font-weight:bold;
 }
 h4 {
   font-size:50px;
@@ -21,7 +22,7 @@ textarea {
   outline:none;
   text-overflow:ellipsis;
   width:100%;
-  height:60%;
+  height:70%;
   font-size:40px;
 }
 #logo {
@@ -38,14 +39,6 @@ textarea {
   top:0;
   z-index:100;
 }
-#navlist {
-  display:flex;
-  list-style:none;
-  justify-content:space-between;
-  align-items:center;
-  width:60%;
-  margin-right:5%;
-}
 #navdrop {
   position:absolute;
   list-style:none;
@@ -60,7 +53,12 @@ textarea {
   font-size:40px;
 }
 #navicon {
-  display:none;
+  display:block;
+  margin-right:3%;
+  width:6%;
+  border:none;
+  background-color:transparent;
+  min-width:40px;
 }
 
 #depts {
@@ -74,7 +72,7 @@ textarea {
   border-radius:15px;
   font-family:'Lato', sans-serif;
   box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height:375px;
+  height:1000px;
 }
 
 #events {
@@ -82,7 +80,7 @@ textarea {
   padding:5em;
 }
 .event-card {
-  height:40vw;
+  height:500px;
   margin-bottom:3em;
   background-size:cover;
   display:flex;
@@ -95,7 +93,7 @@ textarea {
   padding:5em;
 }
 .gallery-card {
-  height:30vw;
+  height:500px;
   min-height:300px;
   margin-bottom:3em;
   box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -126,30 +124,20 @@ textarea {
   -webkit-filter:blur(8px); */
 }
 
-@media (max-width: 900px) {
-  #navlist {
+/* iPad and bigger */
+@media (min-width: 1024px) {
+  #navicon {
     display:none;
   }
-  #navicon {
-    display:block;
-    margin-right:3%;
-    width:6%;
-    border:none;
-    background-color:transparent;
-    min-width:40px;
-  }
-}
-@media (max-width: 500px) {
-  textarea {
-    height:70%;
+  #navlist {
+    display:flex;
+    list-style:none;
+    justify-content:space-between;
+    align-items:center;
+    width:60%;
+    margin-right:5%;
   }
   .dept-card {
-    padding:1em;
-    margin-bottom:3em;
-    background:white;
-    border-radius:15px;
-    font-family:'Lato', sans-serif;
-    box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height:550px;
+    height:500px
   }
 }
