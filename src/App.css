@@ -38,7 +38,6 @@ textarea {
 #nav {
   display:flex;
   height:100px;
-  /* align-items:center; */
   justify-content:space-between;
   background:linear-gradient(#FFDC83, #FAE4AD);
   position:relative;
@@ -70,9 +69,7 @@ textarea {
   display:block;
   margin-right:3%;
   margin-left:auto;
-  width:20%;
-  min-width:50px;
-  max-width:60px;
+  width:90px;
   border:none;
   background-color:transparent;
   min-width:40px;
@@ -142,7 +139,12 @@ textarea {
   -webkit-filter:blur(8px); */
 }
 
-/* iPad and desktop */
+/* tablets */
+@media (min-width: 768px) {
+
+}
+
+/* desktops */
 @media (min-width: 1024px) {
   h1 {
     font-size:45px;
