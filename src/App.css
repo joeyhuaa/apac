@@ -37,7 +37,7 @@ textarea {
 
 #nav {
   display:flex;
-  height:100px;
+  height:170px;
   justify-content:space-between;
   background:linear-gradient(#FFDC83, #FAE4AD);
   position:relative;
