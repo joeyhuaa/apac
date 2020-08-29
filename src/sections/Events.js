@@ -11,12 +11,12 @@ let events = [
   {
     title:'Art Show',
     background:bg1,
-    text:'some text'
+    text:'We will be holding an online art show in which we will take submissions from UC Davis students and post them on our website and our Instagram page!'
   },
   {
     title:'Mural Painting',
     background:bg2,
-    text:'some text'
+    text:'We will be having a mural painting event in coordination with the Native American Student Union (NASU).'
   }
 ]
 
