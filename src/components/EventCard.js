@@ -6,10 +6,8 @@ export default function DeptCard({
   text
 }) {
   return (
-    <div 
-      className='event-card'
-      style={{backgroundImage: `url(${background})`}}
-    >
+    <div className='event-card' style={{backgroundImage: `url(${background})`}}>
+      <div className='blur' style={{backgroundImage: `url(${background})`}} />
       <div className='inner-white translucent'>
         <h4 style={{
           fontFamily:'Poppins', 

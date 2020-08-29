@@ -97,11 +97,12 @@ p {
   padding:5em;
 }
 .event-card {
-  height:800px;
-  margin-bottom:3em;
   background-size:cover;
   display:flex;
   justify-content:center;
+  height:800px;
+  margin-bottom:3em;
+  background-size:cover;
   box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -132,14 +133,8 @@ p {
 
 .inner-white {
   width:75%;
-  height:100%;
   background:white;
   padding:2em;
-}
-.translucent {
-  /* opacity:79%; */
-  /* filter:blur(8px);
-  -webkit-filter:blur(8px); */
 }
 
 /* tablets */
@@ -149,6 +144,9 @@ p {
 
 /* desktops */
 @media (min-width: 1024px) {
+  body {
+    padding-top:150px;
+  }
   h1 {
     font-size:45px;
   }
@@ -161,11 +159,16 @@ p {
   h6 {
     font-size:18px;
   }
+  p {
+    font-size:16px;
+  }
   textarea {
     font-size:16px;
   }
   #nav {
     height:100px;
+    width:100%;
+    position:fixed;
   }
   #navicon {
     display:none;
@@ -188,5 +191,22 @@ p {
   }
   .event-card {
     height:400px;
+  }
+  .translucent {
+    opacity:79%; 
+  }
+  .inner-white {
+    position:absolute;
+    height:400px;
+    width:68%;
+    box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.79);
+  }
+  .blur {
+    position:absolute;
+    background-size:cover;
+    width:65%;
+    height:400px;
+    margin-top:2px;
+    -webkit-filter:blur(5px); filter: blur(3px); -moz-filter:blur(20px); -ms-filter: blur(5px);
   }
 }
