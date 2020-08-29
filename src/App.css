@@ -28,7 +28,7 @@ textarea {
   font-size:40px;
 }
 #logo {
-  min-width:170px;
+  width:200px;
   margin-left:3%;
   position:fixed;
   top:2%;
@@ -69,7 +69,7 @@ textarea {
   display:block;
   margin-right:3%;
   margin-left:auto;
-  width:90px;
+  width:95px;
   border:none;
   background-color:transparent;
   min-width:40px;
@@ -162,6 +162,7 @@ textarea {
     font-size:16px;
   }
   #nav {
+    height:100px;
   }
   #navicon {
     display:none;
