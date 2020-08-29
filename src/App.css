@@ -100,6 +100,7 @@ p {
   background-size:cover;
   display:flex;
   justify-content:center;
+  align-items:center;
   height:800px;
   margin-bottom:3em;
   background-size:cover;
@@ -114,13 +115,14 @@ p {
   -webkit-filter:blur(5px); filter: blur(3px); -moz-filter:blur(20px); -ms-filter: blur(5px);
 }
 .inner-white {
+  display:none;
+}
+.inner-white-mobile {
   width:75%;
+  height:80%;
   background:white;
   padding:2em;
-  box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.79);
-}
-.translucent {
-  opacity:79%; 
+  z-index:90;
 }
 
 #gallery {
@@ -204,8 +206,16 @@ p {
     height:400px;
   }
   .inner-white {
+    display:block;
     height:400px;
     width:70%;
+    background:white;
+    padding:2em;
+    box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.79);
+    opacity:79%;
+  }
+  .inner-white-mobile {
+    display:none;
   }
   .blur {
     height:400px;
