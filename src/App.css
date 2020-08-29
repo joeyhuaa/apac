@@ -27,6 +27,9 @@ textarea {
   height:70%;
   font-size:40px;
 }
+p {
+  font-size:40px;
+}
 #logo {
   width:200px;
   margin-left:3%;

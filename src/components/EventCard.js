@@ -13,12 +13,10 @@ export default function DeptCard({
       <div className='inner-white translucent'>
         <h4 style={{
           fontFamily:'Poppins', 
-          textAlign:'center',
-          fontSize:30
+          textAlign:'center'
         }}>{title}</h4>
         <p style={{
-          marginTop:'2em',
-          fontSize:15
+          marginTop:'2em'
         }}>{text}</p>
       </div>
     </div>
