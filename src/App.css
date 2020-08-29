@@ -113,6 +113,15 @@ p {
   margin-top:2px;
   -webkit-filter:blur(5px); filter: blur(3px); -moz-filter:blur(20px); -ms-filter: blur(5px);
 }
+.inner-white {
+  width:75%;
+  background:white;
+  padding:2em;
+  box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.79);
+}
+.translucent {
+  opacity:79%; 
+}
 
 #gallery {
   background-image:url('./img/paint splotch.jpg');
@@ -137,12 +146,6 @@ p {
   justify-content:space-between;
   align-items:center;
   background:white;
-}
-
-.inner-white {
-  width:75%;
-  background:white;
-  padding:2em;
 }
 
 /* tablets */
@@ -200,14 +203,9 @@ p {
   .event-card {
     height:400px;
   }
-  .translucent {
-    opacity:79%; 
-  }
   .inner-white {
-    position:absolute;
     height:400px;
-    width:68%;
-    box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.79);
+    width:70%;
   }
   .blur {
     height:400px;
