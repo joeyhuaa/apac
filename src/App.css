@@ -5,6 +5,7 @@ body {
 h1 {
   font-size:65px;
   font-weight:bold;
+  text-align:center;
 }
 h4 {
   font-size:50px;
@@ -97,6 +98,7 @@ p {
   padding:5em;
 }
 .event-card {
+  margin:auto;
   background-size:cover;
   display:flex;
   justify-content:center;
@@ -201,6 +203,9 @@ p {
   }
   .event-card {
     height:400px;
+    width:95%;
+  }
+  .event-inner {
   }
   .blur {
     height:400px;
