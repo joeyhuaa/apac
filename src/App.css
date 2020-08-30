@@ -112,12 +112,10 @@ p {
   width:65%;
   height:800px;
   margin-top:2px;
-  -webkit-filter:blur(5px); filter: blur(8px); -moz-filter:blur(20px); -ms-filter: blur(5px);
+  box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-filter:blur(5px); filter: blur(3px); -moz-filter:blur(20px); -ms-filter: blur(5px);
 }
 .event-inner {
-  display:none;
-}
-.event-inner-mobile {
   width:75%;
   height:80%;
   padding:2em 5em;
@@ -203,18 +201,6 @@ p {
   }
   .event-card {
     height:400px;
-  }
-  .event-inner {
-    display:block;
-    height:400px;
-    width:70%;
-    background:white;
-    padding:2em;
-    box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.79);
-    opacity:79%;
-  }
-  .event-inner-mobile {
-    display:none;
   }
   .blur {
     height:400px;
