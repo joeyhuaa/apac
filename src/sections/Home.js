@@ -26,7 +26,7 @@ export default function Home() {
         <p style={{fontSize:'50px'}}>Aggie Public Arts Committee</p>
       </div>
       <div id='home-features'>
-        <h5>Features of the Month</h5>
+        <h4>Features of the Month</h4>
         <Features
           items={features}
         />
