@@ -1,5 +1,6 @@
-import React from 'react';
+import React from 'react'
 import Navbar from './components/Navbar'
+import Home from './sections/Home'
 import Depts from './sections/Depts'
 import Events from './sections/Events'
 import Gallery from './sections/Gallery'
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Home />
       <Events />
       <Gallery />
       <Depts />

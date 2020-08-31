@@ -2,6 +2,7 @@ import React from 'react'
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import {Col} from 'react-bootstrap'
+
 import EventCard from '../components/EventCard'
 
 import bg1 from '../img/art.jpg'

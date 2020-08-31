@@ -14,7 +14,7 @@ h5 {
   font-size:48px;
 }
 h6 {
-  font-size:45px
+  font-size:45px;
 }
 textarea {
   border:none;
@@ -77,6 +77,24 @@ p {
   border:none;
   background-color:transparent;
   min-width:40px;
+}
+
+#home {
+  background-image:url('./img/homepage bg.png');
+  background-size:cover;
+  padding-bottom:220px;
+}
+#home-heading {
+  font-family:'Poppins';
+  text-align:center;
+  padding-top:12%;
+}
+#home-features {
+  font-family:'Poppins';
+  padding-top:25%;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
 }
 
 #depts {
@@ -157,7 +175,7 @@ p {
 /* desktops */
 @media (min-width: 1024px) {
   body {
-    padding-top:150px;
+    padding-top:100px;
   }
   h1 {
     font-size:45px;
