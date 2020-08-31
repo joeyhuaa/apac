@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/apac/static/css/main.b1a57d64.chunk.css",
-    "main.js": "/apac/static/js/main.0d106a7e.chunk.js",
-    "main.js.map": "/apac/static/js/main.0d106a7e.chunk.js.map",
+    "main.css": "/apac/static/css/main.3cfc2b75.chunk.css",
+    "main.js": "/apac/static/js/main.a313b47e.chunk.js",
+    "main.js.map": "/apac/static/js/main.a313b47e.chunk.js.map",
     "runtime-main.js": "/apac/static/js/runtime-main.adfb2399.js",
     "runtime-main.js.map": "/apac/static/js/runtime-main.adfb2399.js.map",
-    "static/js/2.66bc6ce0.chunk.js": "/apac/static/js/2.66bc6ce0.chunk.js",
-    "static/js/2.66bc6ce0.chunk.js.map": "/apac/static/js/2.66bc6ce0.chunk.js.map",
+    "static/js/2.cf278147.chunk.js": "/apac/static/js/2.cf278147.chunk.js",
+    "static/js/2.cf278147.chunk.js.map": "/apac/static/js/2.cf278147.chunk.js.map",
     "index.html": "/apac/index.html",
-    "precache-manifest.27553f688d7545c6cdcaa525d834507a.js": "/apac/precache-manifest.27553f688d7545c6cdcaa525d834507a.js",
+    "precache-manifest.a081a580005a7f5cb02bb9b53c3d7389.js": "/apac/precache-manifest.a081a580005a7f5cb02bb9b53c3d7389.js",
     "service-worker.js": "/apac/service-worker.js",
-    "static/css/main.b1a57d64.chunk.css.map": "/apac/static/css/main.b1a57d64.chunk.css.map",
-    "static/js/2.66bc6ce0.chunk.js.LICENSE.txt": "/apac/static/js/2.66bc6ce0.chunk.js.LICENSE.txt",
+    "static/css/main.3cfc2b75.chunk.css.map": "/apac/static/css/main.3cfc2b75.chunk.css.map",
+    "static/js/2.cf278147.chunk.js.LICENSE.txt": "/apac/static/js/2.cf278147.chunk.js.LICENSE.txt",
     "static/media/App.css": "/apac/static/media/paint splotch.76de6cd7.jpg",
     "static/media/art.jpg": "/apac/static/media/art.805180e5.jpg",
+    "static/media/features1.png": "/apac/static/media/features1.8b4d716c.png",
+    "static/media/features2.png": "/apac/static/media/features2.62000d4b.png",
+    "static/media/features3.png": "/apac/static/media/features3.c90c2aed.png",
     "static/media/heart.png": "/apac/static/media/heart.1ba468ff.png",
     "static/media/logo.png": "/apac/static/media/logo.59149301.png",
     "static/media/menu.png": "/apac/static/media/menu.7bb750a6.png",
@@ -27,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.adfb2399.js",
-    "static/js/2.66bc6ce0.chunk.js",
-    "static/css/main.b1a57d64.chunk.css",
-    "static/js/main.0d106a7e.chunk.js"
+    "static/js/2.cf278147.chunk.js",
+    "static/css/main.3cfc2b75.chunk.css",
+    "static/js/main.a313b47e.chunk.js"
   ]
 }

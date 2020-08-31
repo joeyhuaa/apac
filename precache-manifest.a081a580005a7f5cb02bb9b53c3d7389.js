@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78a59dbb4fca38a226c0e5c8f78ad537",
+    "revision": "26520d302c81372f8df21fd7f77bdff0",
     "url": "/apac/index.html"
   },
   {
-    "revision": "36aee0f93714fc747bbc",
-    "url": "/apac/static/css/main.b1a57d64.chunk.css"
+    "revision": "a80a59e0e6500d90f96e",
+    "url": "/apac/static/css/main.3cfc2b75.chunk.css"
   },
   {
-    "revision": "e983e6991a7c2eb91c3b",
-    "url": "/apac/static/js/2.66bc6ce0.chunk.js"
+    "revision": "651e798141816ccfb46d",
+    "url": "/apac/static/js/2.cf278147.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/apac/static/js/2.66bc6ce0.chunk.js.LICENSE.txt"
+    "url": "/apac/static/js/2.cf278147.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "36aee0f93714fc747bbc",
-    "url": "/apac/static/js/main.0d106a7e.chunk.js"
+    "revision": "a80a59e0e6500d90f96e",
+    "url": "/apac/static/js/main.a313b47e.chunk.js"
   },
   {
     "revision": "fefb3b02317b5877957f",
@@ -32,8 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apac/static/media/art.805180e5.jpg"
   },
   {
+    "revision": "8b4d716c0cccbf96b12f4063dc47857b",
+    "url": "/apac/static/media/features1.8b4d716c.png"
+  },
+  {
+    "revision": "62000d4be101c9366015daa0bc333bea",
+    "url": "/apac/static/media/features2.62000d4b.png"
+  },
+  {
+    "revision": "c90c2aed16775fffc43995394a633259",
+    "url": "/apac/static/media/features3.c90c2aed.png"
+  },
+  {
     "revision": "1ba468ffd707d4b8fe4006ca43c1593c",
     "url": "/apac/static/media/heart.1ba468ff.png"
+  },
+  {
+    "revision": "5ef95f8d8d49ffd59f4add68a51f208d",
+    "url": "/apac/static/media/homepage bg.5ef95f8d.png"
   },
   {
     "revision": "591493014701919d37aa3b378e70860a",
