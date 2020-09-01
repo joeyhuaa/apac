@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useRef} from 'react'
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import {Col} from 'react-bootstrap'
@@ -21,21 +21,23 @@ let events = [
   }
 ]
 
-export default function Events() {
+export default function Events({setRef}) {
   return (
-    <Container fluid id='events'>
-      <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Upcoming Events</h1>
-      <Row>
-        {events.map(event => 
-          <Col sm={12} lg={6}>
-            <EventCard
-              background={event.background}
-              title={event.title}
-              text={event.text}
-            />
-          </Col>
-        )}
-      </Row>
-    </Container>
+    <div id='events' ref={setRef}>
+      <Container fluid>
+        <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Upcoming Events</h1>
+        <Row>
+          {events.map((event,n) => 
+            <Col sm={12} lg={6} key={`col-${n}`}>
+              <EventCard
+                background={event.background}
+                title={event.title}
+                text={event.text}
+              />
+            </Col>
+          )}
+        </Row>
+      </Container>
+    </div>
   )
 }

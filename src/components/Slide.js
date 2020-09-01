@@ -6,8 +6,9 @@ export default function Slide({
 }) {
   return (
     <Carousel>
-      {items.map(item => (
+      {items.map((item,n) => (
         <Carousel.Item 
+          key={`item-${n}`}
           style={{
             width:'60%', 
             marginLeft:'20%'

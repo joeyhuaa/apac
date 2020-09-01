@@ -38,20 +38,22 @@ let cards = [
   }
 ]
 
-export default function Gallery() {
+export default function Gallery({setRef}) {
   return (
-    <Container fluid id='gallery'>
-      <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Gallery</h1>
-      <Row>
-        {cards.map(card => 
-          <Col sm={12} lg={4}>
-            <GalleryCard
-              art={card.art}
-              title={card.title}
-            />
-          </Col>
-        )}
-      </Row>
-    </Container>
+    <div id='gallery' ref={setRef}>
+      <Container fluid>
+        <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Gallery</h1>
+        <Row>
+          {cards.map((card,n) => 
+            <Col sm={12} lg={4} key={`col-${n}`}>
+              <GalleryCard
+                art={card.art}
+                title={card.title}
+              />
+            </Col>
+          )}
+        </Row>
+      </Container>
+    </div>
   )
 }

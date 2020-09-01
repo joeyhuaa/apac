@@ -43,22 +43,24 @@ let cards = [
   }
 ]
 
-export default function Depts() {
+export default function Depts({setRef}) {
   return (
-    <Container fluid id='depts'>
-      <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Our Departments</h1>
-      <Row>
-        {cards.map(card => 
-          <Col sm={12} lg={4}>
-            <DeptCard
-              title={card.title}
-              name={card.name}
-              email={card.email}
-              blurb={card.blurb}
-            />
-          </Col>
-        )}
-      </Row>
-    </Container>
+    <div id='depts' ref={setRef}>
+      <Container fluid>
+        <h1 style={{fontFamily:'Poppins', marginBottom:'2em'}}>Our Departments</h1>
+        <Row>
+          {cards.map((card,n) => 
+            <Col sm={12} lg={4} key={`col-${n}`}>
+              <DeptCard
+                title={card.title}
+                name={card.name}
+                email={card.email}
+                blurb={card.blurb}
+              />
+            </Col>
+          )}
+        </Row>
+      </Container>
+    </div>
   )
 }

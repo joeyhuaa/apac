@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useRef} from 'react'
 import Features from '../components/Slide'
 
 import f1 from '../img/features1.png'
@@ -17,15 +17,14 @@ let features = [
   }
 ]
 
-export default function Home() {
+export default function Home({setRef}) {
   return (
-    <div id='home'>
+    <div id='home' ref={setRef.home}>
       <div id='home-heading'>
-        <p style={{fontSize:'50px'}}>Welcome to</p>
-        <p style={{fontSize:'80px'}}>APAC</p>
-        <p style={{fontSize:'50px'}}>Aggie Public Arts Committee</p>
+        <p className='home-text' style={{fontSize:'60px'}}>Aggie Public Arts Committee</p>
+        <p className='home-text' style={{fontSize:'40px'}}>UC Davis</p>
       </div>
-      <div id='home-features'>
+      <div id='home-features' ref={setRef.featured}>
         <h4>Features of the Month</h4>
         <Features
           items={features}
