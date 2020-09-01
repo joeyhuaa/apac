@@ -22,7 +22,7 @@ const Navbar = ({refs}) => {
   return (
     <div>
       <div id='nav' ref={navRef}>
-        <img id='logo' src={logo} width="12%" />
+        <img id='logo' src={logo} width="12%" onClick={() => scrollTo(refs.home)} />
         <ul id='navlist'>
           <li onClick={() => scrollTo(refs.home)}>HOME</li>
           <li>ABOUT</li>
