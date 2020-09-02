@@ -8,7 +8,7 @@ let cards = [
   {
     title:'DIRECTOR',
     name:'Kinu Koide',
-    email:'apac@asucd.ucdavis.edu',
+    email:'kzkoide@ucdavis.edu',
     blurb:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos.'
   },
   {
